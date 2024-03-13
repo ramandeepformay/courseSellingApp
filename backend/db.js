@@ -31,6 +31,10 @@ const userSchema = new mongoose.Schema({
     required: true,
     trim: true,
   },
+  admin:{
+    type:Boolean,
+    default:false
+  }
 });
 
 const courseSchema = new Schema({
